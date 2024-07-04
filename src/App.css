@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.workout-tracker {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.workout-tracker h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.workout-tracker form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workout-tracker label {
+  margin-bottom: 10px;
+}
+
+.workout-tracker input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.workout-tracker button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.workout-tracker button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+.workout-notes h2{
+ text-align: center;
+}
+.workout-note h2{
+ text-align: start;
+}
+.workout-notes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.workout-note {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  width: calc(33.33% - 20px); /* adjust the width to fit 3 notes per row */
+}
+
+.workout-note h2 {
+  margin-top: 0;
+}
+
+.workout-note p {
+  margin-bottom: 10px;
+}
